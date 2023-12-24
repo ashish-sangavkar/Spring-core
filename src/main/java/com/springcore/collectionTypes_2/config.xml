@@ -16,7 +16,7 @@
 		<property name="studCities">
 			<set>
 				<value>Miraj</value>
-				<value>Sangli</value>
+				<value>Miraj</value>
 			</set>
 		</property>
 		<property name="studcourses">

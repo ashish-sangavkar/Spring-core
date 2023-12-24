@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="city" class="com.springcore.referenceTypes_3.City">
+		<property name="cityName" value="Sangli"/>
+	</bean>
+	
+	<bean id="student" class="com.springcore.referenceTypes_3.Student">
+		<property name="studId" value="102"/>
+		<property name="studName" value="Akshay Malkar"/>
+		<property name="studCity">
+			<ref bean="city"></ref>
+		</property>
+	</bean>
+
+</beans>
