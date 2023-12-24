@@ -14,7 +14,7 @@ public class App {
 
     Student student = (Student) context.getBean("student");
     
-    City city = (City) context.getBean("city");
+    //City city = (City) context.getBean("city");
     
     System.out.println(student.getStudId());
     System.out.println(student.getStudName());
