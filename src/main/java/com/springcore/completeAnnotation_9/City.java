@@ -1,4 +1,4 @@
-package com.springcore.ComponentAnnotation_7;
+package com.springcore.completeAnnotation_9;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -12,7 +12,6 @@ public class City {
 		return cityName;
 	}
 
-	//@Value("Delhi")
 	public void setCityName(String cityName) {
 		this.cityName = cityName;
 	}
