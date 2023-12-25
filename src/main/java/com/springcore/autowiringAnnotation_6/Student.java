@@ -1,6 +1,7 @@
 package com.springcore.autowiringAnnotation_6;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Student {
 	
@@ -15,7 +16,8 @@ public class Student {
 		return studCity;
 	}
 
-	@Autowired
+	@Autowired // inject dependencies automatically
+	@Qualifier("city1") // bean name to inject dependencies
 	public void setStudCity(City studCity) {
 		this.studCity = studCity;
 	}

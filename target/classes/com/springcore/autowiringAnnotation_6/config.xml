@@ -13,6 +13,9 @@
 	<bean id="city" class="com.springcore.autowiringAnnotation_6.City">
 		<property name="cityName" value="Sangli"/>
 	</bean>
+	<bean id="city1" class="com.springcore.autowiringAnnotation_6.City">
+		<property name="cityName" value="Kolhapur"/>
+	</bean>
 	
 	<bean id="student" class="com.springcore.autowiringAnnotation_6.Student">
 		<property name="studId" value="102"/>
